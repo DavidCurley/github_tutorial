@@ -1,6 +1,4 @@
 # Git/Github Tutorial
-### Bushman Lab Code Review, Dec 14, 2016 (First Edition)
-### Erik's Fireside Programming Chats, Feb 24, 2019 (Second Edition)
 
 ## Introduction
 
@@ -21,7 +19,7 @@ The instructions below will get you started on the basics of contributing to an 
 
 "Forking" a repository creates your own copy of the repository under your username. 
 
-Navigate to https://github.com/eclarke/github_tutorial and click on the "Fork" button. Now you have your very own copy of this code under `https://github.com/<yourname>/github_tutorial`. 
+Navigate to https://github.com/samesense/github_tutorial and click on the "Fork" button. Now you have your very own copy of this code under `https://github.com/<yourname>/github_tutorial`. 
 
 ### 02. Downloading your repository
 
