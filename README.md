@@ -53,7 +53,7 @@ On your terminal, type:
 
 ```
 cd github_tutorial
-nano <yourname>.txt
+touch <yourname>.txt
 ```
 
 Type whatever you want in this file. Then press `Ctrl-X` to save it and quit.
@@ -95,3 +95,18 @@ While you're fiddling around with your copy of the code, the upstream maintainer
 https://help.github.com/articles/configuring-a-remote-for-a-fork/
 
 https://help.github.com/articles/syncing-a-fork/
+
+### 07. Create an issue
+
+[Make a new issue in this your repo](https://help.github.com/en/articles/creating-an-issue). Remember your issue's number.
+
+On your terminal, inside github_tutorial, type, replaceing <NUM> w/ your issues number, and <yourname>:
+
+```
+touch <yourname>.issue.txt
+git add -A
+git commit -m 'Close #<NUM>. for <yourname>'.
+git push
+```
+
+Check that your issue has been closed, and that your commit messages links to your issue.
